@@ -1,1 +1,2 @@
-MyGit 测试
+MyGit
+设计模式demo
