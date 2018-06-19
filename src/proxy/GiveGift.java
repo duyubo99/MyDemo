@@ -1,7 +1,7 @@
 package proxy;
 
 public interface GiveGift {
-	//ÊµÏÖÒ»¸öÍ¨¹ý×·ÇóÕßÍ¨¹ý´úÀíÈËËÍÀñÎï¸ø±»×·ÇóÕßµÄÀý×Ó
+	//å®žçŽ°ä¸€ä¸ªé€šè¿‡è¿½æ±‚è€…é€šè¿‡ä»£ç†äººé€ç¤¼ç‰©ç»™è¢«è¿½æ±‚è€…çš„ä¾‹å­
     void giveDolls();
     void giveFlowers();
     void giveChocolate();

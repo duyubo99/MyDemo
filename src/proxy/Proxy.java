@@ -1,5 +1,5 @@
 package proxy;
-
+//代理人
 public class Proxy implements GiveGift {
 	private Pursuit pursuit;
     public Proxy(Girl girl){

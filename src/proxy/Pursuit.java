@@ -1,22 +1,22 @@
 package proxy;
-//×·ÇóÕß
+//è¿½æ±‚è€…
 public class Pursuit implements GiveGift{
-    private Girl mm;
+	private Girl mm;
     public Pursuit(Girl girl){
         this.mm = girl;
     }
     @Override
     public void giveDolls() {
-        System.out.println("×·ÇóÕßËÍÑóÍŞÍŞ¸ø" + mm.name);
+        System.out.println("è¿½æ±‚è€…é€æ´‹å¨ƒå¨ƒç»™" + mm.name);
     }
 
     @Override
     public void giveFlowers() {
-        System.out.println("×·ÇóÕßËÍÏÊ»¨¸ø" + mm.name);
+        System.out.println("è¿½æ±‚è€…é€é²œèŠ±ç»™" + mm.name);
     }
 
     @Override
     public void giveChocolate() {
-        System.out.println("×·ÇóÕßÇÉ¿ËÁ¦¸ø" + mm.name);
+        System.out.println("è¿½æ±‚è€…å·§å…‹åŠ›ç»™" + mm.name);
     }
 }

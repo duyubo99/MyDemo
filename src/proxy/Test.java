@@ -2,10 +2,10 @@ package proxy;
 
 public class Test {
 	public static void main(String[] args) {
-		// 测试
-		// 代理模式
+		// 娴嬭瘯
+		// 浠ｇ悊妯″紡
 		Girl girl = new Girl();
-		girl.name = "娇娇";
+		girl.name = "濞囧▏";
 		Proxy proxy = new Proxy(girl);
 		proxy.giveDolls();
 		proxy.giveFlowers();
